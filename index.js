@@ -6,13 +6,9 @@ function myFunction() {
     var month = document.getElementById("write").elements[2].value;
     var year = document.getElementById("write").elements[3].value;
     var dob = month + '/' + date + '/' + year;
-
     var date2 = new Date(dob);
     var day = date2.getDay();
     var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-
-
-
     if ((date > 0 && date <= 31) && (month > 0 && month <= 12)) {
 
         if (day == 0) {
@@ -90,19 +86,14 @@ function myFunction() {
             else if (weekday == "Saturday") {
                 name = "Ama";
             }
-
-
         }
         alert("Your Akan name is " + name)
         console.log('Day is ' + day);
         console.log('Date2 is ' + date2)
         console.log(gender);
         console.log(date);
-
-
     } else {
         alert("Enter a valid date format");
-
     }
 
 }
