@@ -1,1 +1,4 @@
-.word{font-style: italic;color: cornflowerblue}
+.word{font-style: italic;color: blueviolet}
+.sidebar{float: inline-start; font-family: Georgia}
+.none{background-color: lightgray;padding-left: 5px;padding-bottom: 5px}
+.name{color: royalblue;font-style: italic;font-weight: 400}
